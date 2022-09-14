@@ -11,5 +11,13 @@ package cr.ac.una.pruebas;
 public class persona {
     
     private String nombre;
+    private String cedula;
+
+    public persona(String nombre, String cedula) {
+        this.nombre = nombre;
+        this.cedula = cedula;
+    }
+    
+    
     
 }
